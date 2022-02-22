@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Optional -->
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- Animations -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/grass.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Buzz Cut Landscaping</title>
+  </head>
+  <body class="container-fluid">
+
+    <!-- Navbar -->
+
+    <div class="row">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand" href="#">Buzz Cut Landscaping</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end pe-4" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="services.html">Services</a>
+                    <a class="nav-link" href="testimonials.html">Testimonials</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+    <!-- Hero -->
+
+    <div class="row hero-bg justify-content-center">
+        <div class="col-10 align-self-center my-5 mx-4 py-5 px-4">
+            <span class="fs-5 fw-bold text-uppercase text-white">Buzz Cut</span>
+            <h1 class="display-1 text-white fw-bold">Landscape <br>Maintenance</h1>
+        </div>
+        <div class="col-10 col-xl-6 offset-xl-3 align-self-end py-5 px-4 bg-light">
+            <span class="light-green fw-bold text-uppercase">Call for a free quote</span>
+            <br>
+            <span class="display-3 fw-bold dark-green">(270)555-5555</span>
+        </div>
+    </div>
+
+    <!-- Cards -->
+
+    <div class="row row-cols-md-2 row-cols-3 justify-content-center mb-5 pb-5">
+        <div class="col-10 col-md-10 col-xl-3 px-0" data-aos="fade-down" data-aos-duration="750">
+            <div class="card border-0 m-0 bg-white shadow">
+                <div class="card-body">
+                    <div class="card-title text-uppercase fw-bold py-3">Send A Message</div>
+                    <form>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="InputEmail" placeholder="Email Address" aria-label="email">  
+                            <label for="InputEmail" class="form-label">Email address</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="tel" class="form-control" id="InputPhoneNumber" placeholder="Phone Number" aria-label="Phone Number">  
+                            <label for="InputPhoneNumber" class="form-label">Phone Number</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea type="textarea" class="form-control" id="InputMessage" aria-label="Message" style="height: 100px"></textarea>
+                            <label for="InputMessage" class="form-label">Message</label>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <button type="submit" class="cta-btn py-3 px-5 fw-bold text-uppercase">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 col-md-8 col-xl-3 p-0 m-0 d-flex align-items-stretch" data-aos="fade-down" data-aos-duration="750" data-aos-delay="250">
+            <div class="card border-0 m-0 bg-dk-green text-white shadow">
+                <div class="card-body my-5 mx-4 text-center">
+                    <img src="./assets/tree.png" class="card-img-top align-self-center m-3" alt="" loading="lazy" decoding="async">
+                    <h5 class="card-title">Residential</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <button type="button" class="more-btn fw-bold text-uppercase">Learn more</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 col-md-8 col-xl-3 p-0 m-0 d-flex align-items-stretch" data-aos="fade-down" data-aos-duration="750" data-aos-delay="500">
+            <div class="card border-0 m-0 light-green bg-lt-green text-white shadow">
+                <div class="card-body my-5 mx-4 text-center">
+                    <img src="./assets/trees.png" class="card-img-top align-self-center m-3" alt="" loading="lazy" decoding="async">
+                    <h5 class="card-title">Commercial</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <button type="button" class="more-btn fw-bold text-uppercase">Learn more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+
+    <div class="container px-4 py-5" id="icon-grid" data-aos="zoom-in-down" data-aos-duration="1000">
+        <h2 class="display-4 fw-bold pb-2">Our Services</h2>
+    
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 py-5">
+            <div class="col d-flex align-items-start">
+                <img src="assets/wheelbarrow.png" class="feat-icon mx-3 flex-shrink" loading="lazy" decoding="async">
+                <div>
+                    <h4 class="fw-bold mb-0">Yard Maintanance & Cleanup</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam ante velit facilisi</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <img src="./assets/gloves.png" class="feat-icon mx-3 flex-shrink" loading="lazy" decoding="async">
+                <div>
+                    <h4 class="fw-bold mb-0">Patios</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam ante velit facilisi</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <img src="assets/sprinkler.png" class="feat-icon mx-3 flex-shrink" loading="lazy" decoding="async">
+                <div>
+                <h4 class="fw-bold mb-0">Irrigation Systems</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam ante velit facilisi</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <img src="./assets/hose.png" class="feat-icon mx-3 flex-shrink" loading="lazy" decoding="async">
+                <div>
+                <h4 class="fw-bold mb-0">Water Features</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam ante velit facilisi</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <img src="assets/grass.png" class="feat-icon mx-3 flex-shrink" loading="lazy" decoding="async">
+                <div>
+                <h4 class="fw-bold mb-0">Weeding</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam ante velit facilisi</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <img src="./assets/lawn-mower.png" class="feat-icon mx-3 flex-shrink" loading="lazy" decoding="async">
+                <div>
+                <h4 class="fw-bold mb-0">Prevention</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam ante velit facilisi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Why Us -->
+
+    <div class="row bg-why justify-content-center">
+        <div class="col-10 col-lg-6 offset-lg-2">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-10 mx-4 my-5 text-white bg-dk-green border border-1 border-white" data-aos="flip-left" data-aos-duration="1500">
+                    <h2 class="display-4 fw-bold pt-5 pb-2 px-4">Why Choose Us</h2>
+                    <p class="pb-5 pt-2 px-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <!-- Testimonials -->
+
+                <div class="col-12 col-md-10 justify-content-center align-items-center my-5 mx-4 bg-white" data-aos="flip-left" data-aos-duration="1500">
+                    <div id="carouselControls" class="carousel slide carousel-fade text-center my-auto py-5 px-4">
+                        <div class="carousel-inner py-5 px-4">
+                            <div class="carousel-item active">
+                                <div class="mb-4">
+                                    <img src="assets/star.png" alt="" loading="lazy" decoding="async" height="30px">
+                                    <img src="assets/star.png" alt="" loading="lazy" decoding="async" height="30px">
+                                    <img src="assets/star.png" alt="" loading="lazy" decoding="async" height="30px">
+                                    <img src="assets/star.png" alt="" loading="lazy" decoding="async" height="30px">
+                                    <img src="assets/star.png" alt="" loading="lazy" decoding="async" height="30px">
+                                </div>
+                                <p class="dark-green px-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                <p class="mt-4 fst-italic fs-5 fw-bold">Customer 1</p>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="mb-4">
+                                    <img src="assets/star.png" alt="" loading="lazy" decoding="async" height="30px">
+                                    <img src="assets/star.png" alt="" loading="lazy" decoding="async" height="30px">
+                                    <img src="assets/star.png" alt="" loading="lazy" decoding="async" height="30px">
+                                    <img src="assets/star.png" alt="" loading="lazy" decoding="async" height="30px">
+                                    <img src="assets/half-star.png" alt="" loading="lazy" decoding="async" height="30px">
+                                </div>
+                                <p class="dark-green px-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p class="mt-4 fst-italic fs-5 fw-bold">Customer 2</p>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="mb-4">
+                                    <img src="assets/star.png" alt="" loading="lazy" decoding="async" height="30px">
+                                    <img src="assets/star.png" alt="" loading="lazy" decoding="async" height="30px">
+                                    <img src="assets/star.png" alt="" loading="lazy" decoding="async" height="30px">
+                                    <img src="assets/star.png" alt="" loading="lazy" decoding="async" height="30px">
+                                    <img src="assets/star.png" alt="" loading="lazy" decoding="async" height="30px">
+                                </div>
+                                <p class="dark-green px-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p class="mt-4 fst-italic fs-5 fw-bold">Customer 3</p>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>                
+                </div>
+            </div>
+        </div>
+        <div class="col-10 col-lg-4 py-5 my-auto text-center text-lg-start">
+            <img src="./assets/images/weedeating.jpg" alt="Man trimming grass" class="img-fluid" loading="lazy" decoding="async">
+        </div>
+    </div>
+
+    <!-- Get a Quote -->
+
+    <div class="row thirds justify-content-center align-items-center position-relative">
+        <div class="col-10 col-lg-8 col-xl-6 bg-quote d-flex justify-content-between position-absolute top-100 start-50 translate-middle">
+            <div class="row">
+                <div class="col-10 col-lg-8 my-auto">
+                    <div class="display-5 fw-bold dark-green text-uppercase py-5 px-4">Get a free quote in 24 hours</div>
+                </div>
+                <div class="col-10 col-lg-4 my-auto">
+                    <button type="button" class="quote-btn ms-auto mb-3 mb-lg-0 py-3 px-5 fw-bold text-uppercase">Get a quote</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="row bg-footer">
+        <div class="row thirds"></div>
+        <div class="row thirds text-white justify-content-center align-items-center">
+            <div class="col-10 col-lg-3 mb-5">
+                <ul class="text-uppercase fs-2 fw-bold" style="list-style-type: square">
+                    <li class="my-3 footer-link">Lawn care</li>
+                    <li class="my-3 footer-link">Weed control</li>
+                    <li class="my-3 footer-link">Yard cleanup</li>
+                </ul>
+            </div>
+            <div class="col-10 col-lg-6">
+                <p class="text-uppercase fw-bold py-2">call or text for a free quote</p>
+                <p class="display-4 fw-bold orange">(270)555-5555</p>
+                <p class="py-3 mb-5">
+                    <a href="#" target="_blank"><img src="./assets/facebook.png" alt="Facebook" class="icon-img" loading="lazy" decoding="async"></a>
+                    <a href="#" target="_blank"><img src="./assets/twitter.png" alt="Twitter" class="icon-img" loading="lazy" decoding="async"></a>
+                    <a href="#" target="_blank"><img src="./assets/instagram.png" alt="Instagram" class="icon-img" loading="lazy" decoding="async"></a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+  </body>
+</html>

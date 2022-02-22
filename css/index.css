@@ -1,0 +1,219 @@
+body {
+    background-color: rgb(240, 240, 240) !important;
+}
+
+.thirds {
+    min-height: 33vh;
+}
+
+.dark-green {
+    color: rgb(0, 66, 0);
+}
+
+.orange {
+    color: orange;
+}
+
+.bg-dk-green {
+    background-color: rgb(0, 66, 0) !important;
+}
+
+.light-green {
+    color: rgb(0, 160, 0)
+}
+
+.bg-lt-green {
+    background-color: rgb(0, 160, 0) !important;
+}
+
+.green-rect {
+    width: 16em !important;
+    height: 8em !important;
+    border: 10px solid rgba(0, 160, 0, .5);
+    position: absolute !important;
+    z-index: 0 !important;
+}
+
+.green-rect-sm::before {
+    width: 3em !important;
+    height: 2em !important;
+    border: 6px solid rgba(0, 160, 0, .5);
+    position: absolute !important;
+    z-index: 0 !important;
+}
+
+.hero-bg {
+    min-height: 75vh;
+    background-image: url(../assets/images/lawn.jpg);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.cta-btn {
+    background-color: orange;
+    color: white;
+    border: 2px solid white;
+}
+
+.cta-btn:hover {
+    background-color: white;
+    color: orange;
+    border: 2px solid orange;
+}
+
+.more-btn {
+    background-color: white;
+    color: rgb(0, 160, 0);
+    border: 2px solid white;
+    font-size: 1em;
+    padding: 1em 3em;
+    transition: all 250ms ease-in-out;
+}
+
+.more-btn:hover {
+    font-size: 1.2em;
+    padding: .72em 1.97em;
+}
+
+.card-img-top {
+    width: 5em !important;
+    height: auto !important;
+    filter: invert(100%)
+}
+
+.feat-icon {
+    height: 3em;
+    width: 3em;
+}
+
+.md-icon {
+    height: 6em !important;
+    width: auto !important;
+    transition: all 500ms;
+}
+
+.box {
+    transition: all 500ms;
+}
+
+.box:hover {
+    transform: scale(1.075);
+    color: white;
+    background-color: rgb(0, 66, 0) !important;
+}
+
+.box:hover .md-icon{
+    filter: invert(100%);
+}
+
+.bg-why {
+    background-image: url(../assets/images/Grass.jpg);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(100) !important;
+    height: 2rem !important;
+    width: 2rem !important;
+}
+
+.bg-quote {
+    background-color: orange;
+    color: white;
+}
+
+.quote-btn {
+    background-color: rgb(0, 66, 0);
+    color: white;
+    border: 2px solid white;
+}
+
+.quote-btn:hover {
+    background-color: white;
+    color: rgb(0, 66, 0);
+    border: 2px solid rgb(0, 66, 0);
+}
+
+.bg-footer {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/mower.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+.icon-img {
+    background: rgba(255, 255, 255, 0.0)!important;
+    width: 3em;
+    height: 3em;
+    filter: invert(100%);
+    padding: 0.5em;
+    margin: 0 .25em 0 .25em;
+    border: 2px solid black;
+}
+
+.icon-img:hover {
+    filter: invert(59%) sepia(73%) saturate(1004%) hue-rotate(360deg) brightness(102%) contrast(104%) !important;
+}
+
+.footer-link {
+    transition: transform 250ms;
+}
+
+.footer-link:hover {
+    transform: translateX(.5em);
+}
+
+/* About Us Page */
+
+.about-img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Testimonials Page */
+
+.test-hero {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/Grass.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    min-height: 33vh;
+}
+
+/* Services Page */
+
+.accordion-button:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.green-link {
+    color:rgb(0, 160, 0);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.green-link:hover {
+    color:rgb(0, 66, 0);
+}
+
+.accordion-head {
+    background: none !important;
+    color: white !important;
+    border-bottom: 1px solid white !important;
+    font-weight: bold !important;
+}
+
+.accordion-style {
+    background: none !important;
+    color: white !important;
+}
+
+.accordion-style:focus {
+    outline-color: rgb(0, 160, 0) !important;
+}
+
+.accordion-button-icon, .accordion-button-active-icon {
+    filter: invert(100%) !important;
+}
