@@ -94,13 +94,14 @@ body {
 }
 
 .md-icon {
-    height: 6em !important;
+    height: 5em !important;
     width: auto !important;
     transition: all 500ms;
 }
 
 .box {
     transition: all 500ms;
+    min-height: 10em;
 }
 
 .box:hover {
